@@ -39,7 +39,7 @@ body {
 }
 
 .hero-section {
-  height: 580px;
+  height: 556px;
   background-image: url("../images/hero.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -89,8 +89,11 @@ body {
   margin-top: 37px;
 }
 
-h4 {
+.calendar-text {
   color: white;
+  margin-top: 30px;
+  align-self: flex-start;
+  margin-left: 95px;
 }
 
 form {
@@ -99,8 +102,15 @@ form {
 
 input {
   height: 47px;
-  width: 270px;
+  width: 250px;
   margin-left: 3px;
+  padding-left: 20px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+input::placeholder {
+  color: black;
 }
 
 button {
@@ -109,4 +119,11 @@ button {
   margin-left: 10px;
   background-color: #006bb3;
   color: white;
+  font-weight: bold;
+  font-size: 14px;
+  border: none;
+}
+
+button:focus {
+  outline: none;
 }
