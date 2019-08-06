@@ -7,7 +7,7 @@ body {
   position: fixed;
   width: 100%;
   height: 140px;
-  border-bottom: solid black 15px;
+  border-bottom: solid black 18px;
   display: flex;
   justify-content: flex-end;
   background-color: white;
@@ -76,7 +76,7 @@ body {
 .booking-panel {
   width: 78%;
   background-color: rgba(0, 0, 0, 0.5);
-  height: 79%;
+  height: 77%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -100,6 +100,10 @@ input {
   padding-left: 20px;
   font-size: 14px;
   font-weight: bold;
+}
+
+input:focus {
+  outline: none;
 }
 
 input::placeholder {
