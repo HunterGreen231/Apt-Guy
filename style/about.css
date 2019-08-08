@@ -111,10 +111,14 @@ body {
   grid-template-columns: 1.35fr 1fr;
 }
 
+.column-1 {
+  margin-left: 40px;
+}
+
 .title {
   display: flex;
   margin-top: 45px;
-  margin-left: -234px;
+  margin-left: -281px;
 }
 
 .apt-guy {
@@ -154,5 +158,4 @@ body {
   font-weight: 400;
   letter-spacing: 0.14px;
   line-height: 40px;
-  padding-left: 37px;
 }
