@@ -10,7 +10,7 @@ body {
   display: flex;
   justify-content: flex-end;
   background-color: white;
-  z-index: 1;
+  z-index: 2;
 }
 
 .logo {
@@ -173,9 +173,22 @@ body {
   width: 925px;
   height: 450px;
   box-shadow: 0 2px 14px 0 rgba(0, 0, 0, 0.34), 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  z-index: 1;
 }
 
 .rectangle-2 {
   display: flex;
   justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.rectangle-2-background {
+  z-index: 0;
+  background-color: #e9e9e9;
+  width: 100%;
+  height: 560px;
+  position: absolute;
+  top: 85px;
+  transform: skew(0deg, -5deg);
 }
