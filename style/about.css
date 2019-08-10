@@ -109,6 +109,7 @@ body {
 .about-bruce-content-wrapper {
   display: grid;
   grid-template-columns: 1.35fr 1fr;
+  margin-bottom: 209px;
 }
 
 .column-1 {
@@ -117,7 +118,7 @@ body {
 
 .title {
   display: flex;
-  margin-top: 45px;
+  margin-top: 100px;
   margin-left: -281px;
 }
 
@@ -158,4 +159,23 @@ body {
   font-weight: 400;
   letter-spacing: 0.14px;
   line-height: 40px;
+}
+
+.bruce-peterson-photo {
+  border: 1px solid black;
+  width: 490px;
+  height: 653px;
+  margin-top: 124px;
+}
+
+.video {
+  border: 1px solid black;
+  width: 925px;
+  height: 450px;
+  box-shadow: 0 2px 14px 0 rgba(0, 0, 0, 0.34), 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+.rectangle-2 {
+  display: flex;
+  justify-content: center;
 }
